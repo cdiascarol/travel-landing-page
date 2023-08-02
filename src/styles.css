@@ -1,5 +1,67 @@
+body {
+  background: #f1f2eb;
+}
+
 h1 {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 74px;
-  line-height: 141px;
+  font-family: "Old Standard TT", serif;
+  font-size: 100px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 40px;
+}
+
+h2 {
+  font-family: "Old Standard TT", serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 40px;
+  font-weight: 100;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 5px;
+  margin-top: 30px;
+  text-align: center;
+}
+.logo-title {
+  font-family: "Londrina Solid", cursive;
+  text-decoration: none;
+  color: black;
+}
+
+.logo-title:hover {
+  text-decoration: none;
+}
+.brazil-flag-icon img {
+  width: 3%;
+}
+
+.contact-btn {
+  text-transform: uppercase;
+  border: 1px solid;
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: black;
+  margin: 0 2vw 0 20vw;
+}
+
+.contact-btn:hover {
+  text-decoration: none;
+}
+.hero {
+  margin-top: 200px;
+}
+#sun {
+  width: 7%;
+}
+
+@media (max-width: 900px) {
+  .contact-btn {
+    display: none;
+  }
 }
